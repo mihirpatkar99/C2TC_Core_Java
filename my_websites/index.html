@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello Mihir</title>
+  <meta charset="UTF-8">
+  <title>Daily Work Tracker</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Hello, Mihir! 👋</h1>
-    <p>Welcome to My first custom website!</p>
-    <h1>testing of linking vs,git,gitflow and netlify app went successful</h1>
-    <h2>ashwini is testing the basic implementation</h2>
-    <button onclick="greet()">Click Me</button>
+    <h1>📅 Daily Work Tracker</h1>
+    <form id="task-form">
+      <input type="date" id="task-date" required />
+      <input type="text" id="task-desc" placeholder="What did you work on?" required />
+      <button type="submit">Add Task</button>
+    </form>
+    
+    <ul id="task-list"></ul>
   </div>
 
   <script src="script.js"></script>
