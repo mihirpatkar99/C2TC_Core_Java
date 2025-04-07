@@ -1,5 +1,5 @@
 // script.js
 function greet() {
-    alert("Hey Mihir! Thanks for visiting 😎");
+    alert("Are Priyanshu! jaaaaaa ryyyyyyy 😎");
   }
   
