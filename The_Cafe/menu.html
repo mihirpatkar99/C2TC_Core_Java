@@ -1,0 +1,301 @@
+<!-- menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cafe | Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h2>The Cafe</h2>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="menu.html" class="nav-link active">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menu Header -->
+  <section class="menu-header">
+    <div class="container">
+      <h1>Our Menu</h1>
+      <p>Discover our delicious selection of coffee, food, and treats</p>
+    </div>
+  </section>
+
+  <!-- Menu Categories -->
+  <section class="menu-categories">
+    <div class="container">
+      <div class="category-tabs">
+        <button class="tab-btn active" data-category="coffee">Coffee</button>
+        <button class="tab-btn" data-category="food">Food</button>
+        <button class="tab-btn" data-category="desserts">Desserts</button>
+        <button class="tab-btn" data-category="drinks">Drinks</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coffee Menu -->
+  <section id="coffee" class="menu-section active">
+    <div class="container">
+      <h2>Coffee & Espresso</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Espresso</h3>
+            <span class="price">$3.50</span>
+          </div>
+          <p>Single shot of our premium espresso</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Americano</h3>
+            <span class="price">$4.00</span>
+          </div>
+          <p>Espresso with hot water</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Cappuccino</h3>
+            <span class="price">$4.50</span>
+          </div>
+          <p>Espresso with steamed milk and foam</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Latte</h3>
+            <span class="price">$4.75</span>
+          </div>
+          <p>Espresso with steamed milk</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Mocha</h3>
+            <span class="price">$5.25</span>
+          </div>
+          <p>Espresso with chocolate and steamed milk</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Drip Coffee</h3>
+            <span class="price">$3.00</span>
+          </div>
+          <p>Freshly brewed coffee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Food Menu -->
+  <section id="food" class="menu-section">
+    <div class="container">
+      <h2>Food & Breakfast</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Avocado Toast</h3>
+            <span class="price">$8.50</span>
+          </div>
+          <p>Sourdough bread with avocado, cherry tomatoes, and microgreens</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Breakfast Sandwich</h3>
+            <span class="price">$9.75</span>
+          </div>
+          <p>Egg, cheese, and bacon on a croissant</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Greek Yogurt Bowl</h3>
+            <span class="price">$7.50</span>
+          </div>
+          <p>Greek yogurt with granola, honey, and fresh berries</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Grilled Cheese</h3>
+            <span class="price">$8.00</span>
+          </div>
+          <p>Three-cheese blend on artisan bread</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Caesar Salad</h3>
+            <span class="price">$10.50</span>
+          </div>
+          <p>Romaine lettuce, parmesan, croutons, and caesar dressing</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Chicken Panini</h3>
+            <span class="price">$11.75</span>
+          </div>
+          <p>Grilled chicken, pesto, and mozzarella on ciabatta</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desserts Menu -->
+  <section id="desserts" class="menu-section">
+    <div class="container">
+      <h2>Desserts & Pastries</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Chocolate Croissant</h3>
+            <span class="price">$4.50</span>
+          </div>
+          <p>Buttery croissant filled with dark chocolate</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Blueberry Muffin</h3>
+            <span class="price">$3.75</span>
+          </div>
+          <p>Fresh blueberry muffin with streusel topping</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Tiramisu</h3>
+            <span class="price">$6.50</span>
+          </div>
+          <p>Classic Italian dessert with coffee and mascarpone</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Chocolate Chip Cookie</h3>
+            <span class="price">$2.75</span>
+          </div>
+          <p>Warm chocolate chip cookie</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Cheesecake</h3>
+            <span class="price">$5.75</span>
+          </div>
+          <p>New York style cheesecake with berry compote</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Apple Pie</h3>
+            <span class="price">$5.25</span>
+          </div>
+          <p>Homemade apple pie with cinnamon</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drinks Menu -->
+  <section id="drinks" class="menu-section">
+    <div class="container">
+      <h2>Other Drinks</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Hot Tea</h3>
+            <span class="price">$3.50</span>
+          </div>
+          <p>Selection of premium loose-leaf teas</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Iced Tea</h3>
+            <span class="price">$3.75</span>
+          </div>
+          <p>Freshly brewed iced tea with lemon</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Hot Chocolate</h3>
+            <span class="price">$4.25</span>
+          </div>
+          <p>Rich hot chocolate with whipped cream</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Fresh Juice</h3>
+            <span class="price">$4.50</span>
+          </div>
+          <p>Orange, apple, or grapefruit juice</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Smoothie</h3>
+            <span class="price">$6.00</span>
+          </div>
+          <p>Berry blend or tropical smoothie</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h3>Sparkling Water</h3>
+            <span class="price">$2.50</span>
+          </div>
+          <p>Premium sparkling water</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>The Cafe</h3>
+          <p>Creating perfect moments, one cup at a time.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Hours</h4>
+          <p>Monday - Friday: 7AM - 8PM<br>
+          Saturday - Sunday: 8AM - 9PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 The Cafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
