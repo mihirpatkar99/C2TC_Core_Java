@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smile Foundation | About</title>
+  <meta name="description" content="Learn about Smile Foundation’s mission, approach, and impact." />
+
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="../index.html" aria-label="Smile Foundation home">
+        <span class="brand-mark" aria-hidden="true">SF</span>
+        <span class="brand-text">Smile Foundation</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Open menu</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a class="nav-link" href="../index.html">Home</a></li>
+        <li><a class="nav-link active" href="about.html">About</a></li>
+        <li><a class="nav-link" href="programs.html">Programs</a></li>
+        <li><a class="nav-link" href="get-involved.html">Get involved</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-cta">
+          <a class="btn btn-primary" href="get-involved.html#donate">Donate</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="../index.html">Home</a> / About</div>
+        <h1>About Smile Foundation</h1>
+        <p>Our mission is to help communities thrive with dignity through long-term, measurable programs.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container two-col">
+        <div class="panel">
+          <h2>Our mission</h2>
+          <p class="muted">
+            We focus on education, healthcare, and livelihood—because lasting change happens when families have the support to learn, stay healthy, and earn.
+          </p>
+          <h3>Our approach</h3>
+          <ul class="checklist">
+            <li>Partner with local organizations</li>
+            <li>Design programs with community input</li>
+            <li>Track outcomes and publish impact</li>
+          </ul>
+        </div>
+
+        <div id="impact" class="panel">
+          <h2>Impact (sample)</h2>
+          <p class="muted">Replace these numbers with your real stats anytime.</p>
+          <div class="hero-metrics" style="margin-top:12px">
+            <div class="metric">
+              <dt>Children supported</dt>
+              <dd>5,000+</dd>
+            </div>
+            <div class="metric">
+              <dt>Communities reached</dt>
+              <dd>60+</dd>
+            </div>
+            <div class="metric">
+              <dt>Partners</dt>
+              <dd>25+</dd>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="muted">© <span id="year"></span> Smile Foundation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
